@@ -95,11 +95,11 @@ function App() {
         </div>
         <div id="session-label">Session Length</div>
         <div className="flex justify-center items-center gap-2">
-          <button id="break-decrement" onClick={decrementSession}>
+          <button id="session-decrement" onClick={decrementSession}>
             -
           </button>
-          <div id="break-length">{breakLength}</div>
-          <button id="break-increment" onClick={incrementSession}>
+          <div id="session-length">{breakLength}</div>
+          <button id="session-increment" onClick={incrementSession}>
             +
           </button>
         </div>
