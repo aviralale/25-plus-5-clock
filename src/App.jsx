@@ -98,7 +98,7 @@ function App() {
           <button id="session-decrement" onClick={decrementSession}>
             -
           </button>
-          <div id="session-length">{breakLength}</div>
+          <div id="session-length">{sessionLength}</div>
           <button id="session-increment" onClick={incrementSession}>
             +
           </button>
